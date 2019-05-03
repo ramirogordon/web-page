@@ -5,13 +5,21 @@
     font-size: 2rem;
     color: #FFF;
     font-family: 'MedievalSharp', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
     label {
         h1 {
             margin: 0 auto;
-            padding: 1rem;
+            padding-top: 1rem;
         }
     }
     section {
         margin: 4rem;
+    }
+    footer {
+        font-size: 1.5rem;
+        position: relative;
     }
 }

@@ -10,6 +10,9 @@ const Main = () => {
                 This page provides all information for play a roll game. 
                 You can view the story and characters of your game.
             </section>
+            <footer>
+                &copy; Gordon Inc.
+            </footer>
         </div>
     )
 }

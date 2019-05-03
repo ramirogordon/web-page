@@ -1,0 +1,38 @@
+.full-characters {
+    background-color: #f1d4ab;
+    height: 100vh;
+    text-align: center;
+    h1 {
+        margin: auto;
+    }
+    .characters-content {
+        display: flex;
+        flex-wrap: wrap;
+        .character-card {
+            background: white;
+            width: 21%;
+            border-radius: 1.2rem;
+            display: inline-block;
+            margin: auto;
+            margin-top: 1rem;
+            text-align: center;
+            box-shadow: -1px 15px 30px -12px black;
+            z-index: 9999;
+            position: relative;
+            .character-image {
+                position: relative;
+                background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian-bg.jpg);
+                height: 230px;
+                margin-bottom: 35px;
+                border-top-left-radius: 14px;
+                border-top-right-radius: 14px;
+                img {
+                    position: absolute;
+                    width: 142%;
+                    left: -52px;
+                    top: 1px;
+                }
+            }
+        }
+    }
+}
