@@ -2,8 +2,21 @@
     background-color: #f1d4ab;
     height: 100vh;
     text-align: center;
+    .lineal-div {
+        background-image: url(https://d2q63o9r0h0ohi.cloudfront.net/images/card-background-top-9da025a83c7db60699e626dfdf475bf6e737f80bf971b59acb7118711915d6c0febc033ce1d047d0ef96e1fdcf5b314cc261a2ebd08a8c66442dec8c6e3f1edb.png);
+        width: 100%;
+        height: 9%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     h1 {
         margin: auto;
+        padding-top: 2rem;
+        font-size: 3rem;
+    }
+    p {
+        margin: 4rem;
+        font-size: 1.8rem;
     }
     .characters-content {
         display: flex;
@@ -25,13 +38,13 @@
                 background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian-bg.jpg);
                 background-repeat: no-repeat;
                 background-size: cover;
-                height: 230px;
+                height: 200px;
                 border-top-left-radius: 14px;
                 border-top-right-radius: 14px;
                 img {
                     position: absolute;
-                    width: 142%;
-                    left: -52px;
+                    width: 80%;
+                    left: 20px;
                     top: 1px;
                 }
             }
@@ -89,6 +102,7 @@
         }
         .character-card:hover {
             width: 23%;
+            box-shadow: -1px 19px 33px -15px black;
         }
     }
 }

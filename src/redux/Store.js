@@ -1,9 +1,9 @@
 import { createStore, compose } from "redux";
-import user from './reducers/user';
+import character from './reducers/character';
 
 
 const store = createStore(
-    user,
+    character,
     compose(window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
 );
 

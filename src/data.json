@@ -1,0 +1,44 @@
+{
+    "characters": [
+        {
+            "id": 1,
+            "name": "Goldevis",
+            "level": 7,
+            "life": 185,
+            "physicalArmor": 90,
+            "magicArmor": 90,
+            "img": "http://www.stickpng.com/assets/images/5905fcc20cbeef0acff9a625.png",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, voluptas!"
+        },
+        {
+            "id": 2,
+            "name": "Shaki' Ra",
+            "level": 7,
+            "life": 185,
+            "physicalArmor": 80,
+            "magicArmor": 90,
+            "img": "http://www.stickpng.com/assets/images/5905fc730cbeef0acff9a623.png",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, voluptas!"
+        },
+        {
+            "id": 3,
+            "name": "Volomir",
+            "level": 7,
+            "life": 185,
+            "physicalArmor": 90,
+            "magicArmor": 90,
+            "img": "http://www.stickpng.com/assets/images/5905f60a0cbeef0acff9a61d.png",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, voluptas!"
+        },
+        {
+            "id": 4,
+            "name": "Demetrius",
+            "level": 7,
+            "life": 185,
+            "physicalArmor": 90,
+            "magicArmor": 90,
+            "img": "http://www.stickpng.com/assets/images/5905fc230cbeef0acff9a620.png",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, voluptas!"
+        }
+    ]
+}
