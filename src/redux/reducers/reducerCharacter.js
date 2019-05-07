@@ -1,9 +1,9 @@
-import {characters} from '../../data.json';
+import {characters} from '../../data/data.json';
 const defaultState = {
     characters
 }
 
-function character(state = defaultState, {type}) {
+function reducerCharacter(state = defaultState, {type}) {
     switch (type) {
         case 'LOAD_CHARACTERS': {
             return state.characters;
@@ -14,4 +14,4 @@ function character(state = defaultState, {type}) {
     }
 }
 
-export default character;
+export default reducerCharacter;

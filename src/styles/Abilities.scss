@@ -1,0 +1,23 @@
+.abilities-screen {
+    background-color: #f1d4ab;
+    font-family: 'MedievalSharp', cursive;
+    .header-abilities {
+        text-align: center;
+        .title-abilities{
+            h1 {
+                margin: auto;
+                padding-top: 4rem; 
+                font-size: 3rem;
+            }
+        }
+        .description-abilities{
+            p {
+                margin: 4rem;
+                font-size: 1.8rem;
+            }
+        }
+    }
+    .full-abilities{
+        font-size: 1.3rem;
+    }
+}

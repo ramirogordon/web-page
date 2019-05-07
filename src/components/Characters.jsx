@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 import Navbar from './Navbar';
 import '../styles/Characters.scss';
 import Character from './Character';
 
 const Characters = (props) => {
+  console.log(props.state.characters);
   const char = props.state.characters;
   return (
     <div>
@@ -26,7 +27,7 @@ const Characters = (props) => {
 }
 
 const mapStateToProps = (state) => ({
-  state
+  state: state.reducerCharacter
 })
 
 export default connect(mapStateToProps)(Characters);

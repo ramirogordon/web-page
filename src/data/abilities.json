@@ -1,0 +1,46 @@
+{
+    "abilities": [
+        {
+            "id": 1,
+            "name": "Cuchilla danzante",
+            "description": "",
+            "cd": 4,
+            "cost": "+5F"
+        },
+        {
+            "id": 2,
+            "name": "Amigo de la Muerte",
+            "description": "",
+            "cd": 4,
+            "cost": "+5F"
+        },
+        {
+            "id": 3,
+            "name": "Restauracion",
+            "description": "",
+            "cd": 4,
+            "cost": "+5F"
+        },
+        {
+            "id": 4,
+            "name": "Toque Petrificante",
+            "description": "",
+            "cd": 4,
+            "cost": "+5F"
+        },
+        {
+            "id": 5,
+            "name": "Flecha Danzante",
+            "description": "",
+            "cd": 4,
+            "cost": "+5F"
+        },
+        {
+            "id": 6,
+            "name": "",
+            "description": "",
+            "cd": 4,
+            "cost": "+5F"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+.full-table {
+    // overflow: auto;
+    padding-bottom: 5rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    thead {
+        tr {
+            display: flex;
+            justify-content: space-evenly;
+            th {
+                padding: 1em; /* provoca espacion entre cada linea de la tabla */
+                box-sizing: border-box;
+                text-align: center;
+                box-shadow: 0 0 1.5px -1px; /*crea recuadro para la tabla*/
+                flex: 1 0 10em; /* centra los cuadros */
+            }
+        }
+    }
+    tbody {
+        tr {
+            display: flex;
+            justify-content: space-around;
+            td {
+                padding: 1em; /* provoca espacion entre cada linea de la tabla */
+                box-sizing: border-box;
+                text-align: center;
+                box-shadow: 0 0 1.5px -1px; /*crea recuadro para la tabla*/
+                flex: 1 0 10em;
+            }
+        }
+    }
+}
