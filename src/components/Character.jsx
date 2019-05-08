@@ -33,7 +33,7 @@ const Character = (props) => {
                                     {character.magicArmor}
                                 </div>
                                 <div className="stats-name">
-                                    Magic Armor
+                                    Magic 
                                 </div>
                             </div>
                             <div className="stats no-border">
