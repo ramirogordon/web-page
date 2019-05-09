@@ -1,25 +1,37 @@
 .navbar {
     background-image: url(https://d2q63o9r0h0ohi.cloudfront.net/images/nav/newNav/wood_middle_repeat-b357e74839b5f16173c2f35d36ce22cae24d5b552e2eb1dd1fd7d3091eeccca8eb8ab5c0a2c42e9476357ac2c744e8e22ddc08c5d27be8c670fb9630065a9c01.png);    
-    width: 100%;
-    height: 10%;
-    text-align: center;
+    min-height: 4rem;
+    max-height: 4.3rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     nav {
         ul {
             display: flex;
-            justify-content: flex-start;
             margin: auto;
+            justify-content: flex-start;
             li {
                 list-style: none;
-                margin: 1.3rem;
+                margin-left: 2rem;
                 a {
-                    color: #fcd144;    
+                    color: #fcd144;
                     text-decoration: none;
-                    position: relative;
                     font-family: system-ui;
                     text-transform: uppercase;
                     font-size: 1.2rem;
                 }
             }
+        }
+    }
+    .login-link {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        margin-right: 2rem; 
+        a {
+            font-family: system-ui;
+            text-decoration: none;
+            color: #fcd144;
         }
     }
 }
