@@ -1,5 +1,5 @@
 .navbar {
-    background-image: url(https://d2q63o9r0h0ohi.cloudfront.net/images/nav/newNav/wood_middle_repeat-b357e74839b5f16173c2f35d36ce22cae24d5b552e2eb1dd1fd7d3091eeccca8eb8ab5c0a2c42e9476357ac2c744e8e22ddc08c5d27be8c670fb9630065a9c01.png);    
+    background-color: #2196f3;    
     min-height: 4rem;
     max-height: 4.3rem;
     position: relative;
@@ -13,11 +13,12 @@
             justify-content: flex-start;
             li {
                 list-style: none;
-                margin-left: 2rem;
+                margin-left: 1rem;
+                padding: 10px 7px 10px 7px;
+                transition: 0.5s;
                 a {
-                    color: #fcd144;
+                    color: #ffffff;
                     text-decoration: none;
-                    font-family: system-ui;
                     text-transform: uppercase;
                     font-size: 1.2rem;
                 }
@@ -27,11 +28,25 @@
     .login-link {
         font-size: 1.2rem;
         text-transform: uppercase;
-        margin-right: 2rem; 
+        margin-right: 2rem;
+        padding-right: 20px; 
         a {
-            font-family: system-ui;
+            display: flex;
             text-decoration: none;
-            color: #fcd144;
+            color: #ffffff;
+            .login-name {
+                padding-right: 10px; 
+            }
+            .login-img {
+                img {
+                    width: 25px;
+                }
+            }
         }
     }
+}
+
+li:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 15%;
 }

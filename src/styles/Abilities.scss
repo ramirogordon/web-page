@@ -1,6 +1,5 @@
 .abilities-screen {
-    background-color: #f1d4ab;
-    font-family: 'MedievalSharp', cursive;
+    background-color: #eeeeee;
     .header-abilities {
         text-align: center;
         .title-abilities{
@@ -19,5 +18,7 @@
     }
     .full-abilities{
         font-size: 1.3rem;
+        display: flex;
+        justify-content: center;
     }
 }

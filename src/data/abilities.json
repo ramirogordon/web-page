@@ -3,42 +3,42 @@
         {
             "id": 1,
             "name": "Cuchilla danzante",
-            "description": "",
+            "description": "Lorem asjndpiajbna asnp anba a naon aodn baón",
             "cd": 4,
             "cost": "+5F"
         },
         {
             "id": 2,
             "name": "Amigo de la Muerte",
-            "description": "",
+            "description": "Lorem asjndpiajbna asnp anba a naon aodn baón",
             "cd": 4,
             "cost": "+5F"
         },
         {
             "id": 3,
             "name": "Restauracion",
-            "description": "",
+            "description": "Lorem asjndpiajbna asnp anba a naon aodn baón",
             "cd": 4,
             "cost": "+5F"
         },
         {
             "id": 4,
             "name": "Toque Petrificante",
-            "description": "",
+            "description": "Lorem asjndpiajbna asnp anba a naon aodn baón",
             "cd": 4,
             "cost": "+5F"
         },
         {
             "id": 5,
             "name": "Flecha Danzante",
-            "description": "",
+            "description": "Lorem asjndpiajbna asnp anba a naon aodn baón",
             "cd": 4,
             "cost": "+5F"
         },
         {
             "id": 6,
-            "name": "",
-            "description": "",
+            "name": "mira bos",
+            "description": "Lorem asjndpiajbna asnp anba a naon aodn baón",
             "cd": 4,
             "cost": "+5F"
         }

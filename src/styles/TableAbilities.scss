@@ -4,29 +4,61 @@
     width: 90%;
     display: flex;
     flex-direction: column;
-    thead {
-        tr {
-            display: flex;
-            justify-content: space-evenly;
-            th {
-                padding: 1em; /* provoca espacion entre cada linea de la tabla */
-                box-sizing: border-box;
-                text-align: center;
-                box-shadow: 0 0 1.5px -1px; /*crea recuadro para la tabla*/
-                flex: 1 0 10em; /* centra los cuadros */
+    table {
+        min-width: 700px;
+        width: 100%;
+        display: table;
+        font-family: "Robot", "Helvetica", "Arial", sans-serif;
+        border-spacing: 0;
+        border-collapse: collapse;
+        border-color: grey;
+        thead {
+            display: table-header-group;
+            vertical-align: middle;
+            border-color: inherit;
+            tr {
+                display: table-row;
+                height: 48px;
+                color: inherit;
+                vertical-align: middle;
+                outline: none;
+                border-color: inherit;
+                th {
+                    color: rgba(0, 0, 0, 0.54);
+                    font-size: 0.75rem;
+                    font-weight: 500;
+                    display: table-cell;
+                    padding: 4px 56px 4px 24px;
+                    text-align: left;
+                    border-bottom: 1px solid rgba(224, 224, 224, 1);
+                    border-left: 1px solid rgba(224, 224, 224, 1);
+                    vertical-align: inherit;
+                }
             }
         }
-    }
-    tbody {
-        tr {
-            display: flex;
-            justify-content: space-around;
-            td {
-                padding: 1em; /* provoca espacion entre cada linea de la tabla */
-                box-sizing: border-box;
-                text-align: center;
-                box-shadow: 0 0 1.5px -1px; /*crea recuadro para la tabla*/
-                flex: 1 0 10em;
+        tbody {
+            display: table-row-group;
+            vertical-align: middle;
+            border-color: inherit;
+            tr {
+                color: inherit;
+                height: 48px;
+                display: table-row;
+                outline: none;
+                vertical-align: middle;
+                border-color: inherit;
+                td {
+                    text-align: left;
+                    flex-direction: row-reverse;
+                    color: rgba(0, 0, 0, 0.87);
+                    font-size: 0.8125rem;
+                    font-weight: 400;
+                    padding: 4px 56px 4px 24px;
+                    display: table-cell;
+                    border-bottom: 1px solid rgba(224, 224, 224, 1);
+                    border-left: 1px solid rgba(224, 224, 224, 1);
+                    vertical-align: inherit;
+                }
             }
         }
     }

@@ -31,7 +31,7 @@ const LoginScreen = (props) => {
                             User Login
                         </Typography>
                         <Typography className={classes.typoDescription} color="textSecondary">
-                            Please enter you user name and you password below
+                            Please enter your user name and your password below
                         </Typography>
                         <div className="full-text-field">
                             <div className="img-text-field">
