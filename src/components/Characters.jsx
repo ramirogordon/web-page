@@ -8,7 +8,7 @@ const Characters = (props) => {
   console.log(props.state.characters);
   const char = props.state.characters;
   return (
-    <div>
+    <>
       <Navbar />
       <div className="full-characters">
         <h1>Character Sets</h1>
@@ -22,7 +22,7 @@ const Characters = (props) => {
           <Character characters={char} />
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

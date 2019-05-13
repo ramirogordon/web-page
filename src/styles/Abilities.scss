@@ -1,11 +1,13 @@
 .abilities-screen {
     background-color: #eeeeee;
+    height: 91%;
+    overflow: auto;
     .header-abilities {
         text-align: center;
         .title-abilities{
             h1 {
                 margin: auto;
-                padding-top: 4rem; 
+                padding-top: 2rem; 
                 font-size: 3rem;
             }
         }

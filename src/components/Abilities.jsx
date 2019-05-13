@@ -6,24 +6,26 @@ import '../styles/Abilities.scss';
 
 const Abilities = (props) => {
   return (
-    <div className="abilities-screen">
+    <>
       <Navbar />
-      <div className="header-abilities">
-        <div className="title-abilities">
-          <h1>Abilities Sets</h1>
+      <div className="abilities-screen">
+        <div className="header-abilities">
+          <div className="title-abilities">
+            <h1>Abilities Sets</h1>
+          </div>
+          <div className="description-abilities">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Ipsum molestias aperiam culpa dicta quae repudiandae qui 
+              commodi quo. Dolorem, quidem.
+            </p>
+          </div>
         </div>
-        <div className="description-abilities">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Ipsum molestias aperiam culpa dicta quae repudiandae qui 
-            commodi quo. Dolorem, quidem.
-          </p>
+        <div className="full-abilities">
+          <TableAbilities abilities={props.state.abilities}/>
         </div>
       </div>
-      <div className="full-abilities">
-        <TableAbilities abilities={props.state.abilities}/>
-      </div>
-    </div>
+    </>
   )
 }
 
