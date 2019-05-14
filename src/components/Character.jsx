@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 const Character = (props) => {
     console.log(props.characters);
-    const characters = props.characters;
+    const { characters } = props;
     const listCharacters = characters.map((character, i) => {
         return (
             <div className="character-card" key={i}>
-                <Link to="/characters/custom">
+                <Link to={`/characters/custom/${character.id}`}>
                     <div className="character-image">
                         <img src={character.img} alt="img1" />
                     </div>

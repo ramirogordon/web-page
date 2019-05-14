@@ -22,6 +22,7 @@ const LoginScreen = (props) => {
         if (!error) {
             submit(data);
         } else {
+            e.preventDefault();
             setErrors(error);
         }
 
@@ -40,7 +41,7 @@ const LoginScreen = (props) => {
         <>
             <Navbar />
             <div className="login-screen">
-                <form method="get" onSubmit={onSubmit}>
+                <form method="get" action="/" onSubmit={onSubmit}>
                     <Card className={classes.card}>
                         <div className="login" >
                             <Typography className={classes.typoTitle} gutterBottom variant="h5" component="h2">
